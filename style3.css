@@ -1,0 +1,42 @@
+header{
+	background-color: green;
+	color: white;
+	font-family: "Comic Sans Ms";
+	text-align: center;
+	border: 1px solid black;
+}
+
+.icons{
+    height:19px;
+    width:21px;
+    margin:0px 10px;
+    filter:brightness(0) invert(1);
+    /* filter: invert(1); */
+}
+
+.icons:hover{
+    filter:brightness(1);
+}
+nav{
+	overflow: hidden;
+	background-color: black;
+	overflow: hidden;
+}
+nav a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 14px 12px 11px 10px;
+}
+nav a:hover{
+	background-color: gray;
+	color: white;
+}
+h1{
+	font-family:Comic Sans Ms;
+	font-size: 25px;
+}
+footer{
+	clear: both;
+    float: right;
+}
