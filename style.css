@@ -101,10 +101,11 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 
 
 }
 @media screen and(max-width: 617px)
 {
-	width:100%;
+	a{width:100%;}
 }
